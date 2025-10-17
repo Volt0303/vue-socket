@@ -26,6 +26,7 @@ describe('#emit()', () => {
     expect(spy).toHaveBeenCalled();
     expect(spy).toHaveBeenLastCalledWith('bar', 'baz');
   });
+  
 
   it('should invoke multiple callbacks', () => {
     const spy1 = jest.fn();
